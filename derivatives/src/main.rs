@@ -2,10 +2,10 @@ mod sim_funs;
 mod european_call;
 
 fn main() {
-    let time_points : Vec<f64> = vec![1.0,2.0,3.0];
+    //let time_points : Vec<f64> = vec![1.0,2.0,3.0];
     //let bm_vec: Vec<f64> = sim_funs::sim_bm( &time_points );
-    let gbm_vec:Vec<f64> = sim_funs::sim_gbm(0.0, 0.1, 100.0, &time_points);
-    println!("{:?}", gbm_vec);
+    //let gbm_vec:Vec<f64> = sim_funs::sim_gbm(0.0, 0.1, 100.0, &time_points);
+    //println!("{:?}", gbm_vec);
 
     let sigma: f64 = 0.2;
     let r: f64 = 0.03;
